@@ -1,0 +1,5 @@
+ganados = int(input("Ingrese la cantidad de partidos ganados: "))
+empatados = int(input("Ingrese la cantidad de partidos empatados: "))
+perdidos = int(input("Ingrese la cantidad de partidos perdidos: "))
+puntos = (ganados * 3) + (empatados * 1) + (perdidos * 0)
+print(f"La cantidad de puntos acumulados por el equipo es: {puntos}")
